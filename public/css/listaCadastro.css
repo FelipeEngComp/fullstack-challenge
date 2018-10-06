@@ -2,7 +2,8 @@
 #fundo{
     background-color: #00BFFF;
     height: 165px;
-    width: 100%;  
+    width: 100%;
+    position: absolute;  
     top:0;
     left:0;
 }
@@ -40,6 +41,12 @@ input{
 
 .centralizado{
     text-align: center;
+}
+
+#resultados{
+    position: relative;  
+    top:150;
+    left:0;
 }
 
 #dados{
